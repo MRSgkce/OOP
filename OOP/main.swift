@@ -14,9 +14,10 @@ let kullanici=Kullanici(isim: "ayca", yas: 45, meslek: " avukat",tip : .Admin)
 //kullanici.meslek="polis"
 //kullanici.yas=24
 
-//print(kullanici.tip)
+print(kullanici.tip)
 let kullanici2=OzelKullanici(isim: "ckfc", yas: 23, meslek: "vr", tip: .Admin)
 
 kullanici2.ornek()
+print(kullanici2.sacim())
 
 

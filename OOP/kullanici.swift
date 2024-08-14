@@ -19,6 +19,7 @@ class Kullanici{
     var yas : Int
     var meslek : String
     var tip : kullaniciTipi
+    private var sac : String = "siyah"
     
     //initalizer her obje oluşturulduğunda çağrılır.
     init(isim: String, yas: Int, meslek: String,tip: kullaniciTipi) {
@@ -31,4 +32,13 @@ class Kullanici{
     func ornek(){
         print("ornek fonksiyon oluştu")
     }
+    fileprivate func test( ){
+        
+    }
+    func sacim( )->String{
+        return sac
+        
+    }
+    
 }
+
