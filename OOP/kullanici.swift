@@ -6,3 +6,29 @@
 //
 
 import Foundation
+
+enum kullaniciTipi{
+    case Admin
+    case Normal
+    case Yetkisiz
+}
+
+class Kullanici{
+    
+    var isim : String
+    var yas : Int
+    var meslek : String
+    var tip : kullaniciTipi
+    
+    //initalizer her obje oluşturulduğunda çağrılır.
+    init(isim: String, yas: Int, meslek: String,tip: kullaniciTipi) {
+        self.isim = isim
+        self.yas = yas
+        self.meslek = meslek
+        self.tip = tip
+    }
+    
+    func ornek(){
+        print("ornek fonksiyon oluştu")
+    }
+}
